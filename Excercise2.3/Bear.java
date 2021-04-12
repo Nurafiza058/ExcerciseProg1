@@ -26,17 +26,14 @@ public class Bear {
 		trophiclevel =sc.next();
 		System.out.println("Type of animal :" );
 		typeofanimal =sc.next();
-		System.out.println("Weight :");
-		weight=sc.nextInt();
-		System.out.println("Height : ");
-		tall=sc.nextInt();
+	
 		System.out.println("Population :");
 		population=sc.nextInt();
 		System.out.println("Endangered :");
 		endangered= sc.next().charAt(0);
 		
 		System.out.println();
-		calBMI(tall,weight);
+		calBMI();
 		populate (population);
 		tall (tall);
 		donation();
@@ -45,8 +42,12 @@ public class Bear {
 		System.out.println("**********************************************");
 	}
 	
-	double calBMI(double t, int w) {
-		double total = w / (t*t);
+	double calBMI() {
+		System.out.println("Height : ");
+		tall=sc.nextInt();
+		System.out.println("Weight :");
+		weight=sc.nextInt();
+		double total = weight / (tall*tall);
 		System.out.println("BMI :" + total);
 		return total;
 		
