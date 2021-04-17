@@ -52,27 +52,3 @@ public class Lamp {
 	}
 	}
 	
-	
-	/*
-	Lamp(String tol,String m , String c, double p, int h, int b, char usb, double cab ){
-		typeoflamp =tol;
-		model =m;
-		colour =c;
-		price =p;
-		height =h;
-		bulb =b;
-		
-		System.out.println();
-		System.out.println("Type of lamp \t\t: "+tol);
-		System.out.println("Brand \t\t\t: "+m);
-		System.out.println("Color \t\t\t: "+c);
-		System.out.println("Voltage \t\t: RM "+p );
-		System.out.println("Height \t\t\t: "+h+"cm");
-		System.out.println("Bulb \t\t\t: "+b+"Watt");
-		System.out.println("Does it have USB port \t: "+ usb);
-		System.out.println("How long is the cable \t: "+ cab+" meter");
-		System.out.println();
-	}
-
-	}
-*/
