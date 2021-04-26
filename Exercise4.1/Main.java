@@ -3,10 +3,7 @@ package Exercise;
 public class Main {
 
 	public static void main(String[] args) {
-		
-		Fruit a = new Fruit("Orange"); 
 	
-		System.out.println();
 		
 		Apple b = new Apple("Apple", 12, 2);
 		System.out.println("Quantity\t\t: "+b.quantity());
